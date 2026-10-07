@@ -15,6 +15,10 @@ export default tseslint.config(
     },
   },
   {
+    files: ['**/*.test.{ts,tsx}', 'tests/**/*.{ts,tsx}'],
+    rules: { '@typescript-eslint/no-non-null-assertion': 'off' },
+  },
+  {
     files: ['src/**/*.tsx', 'src/ui/**/*.ts', 'src/store/**/*.ts'],
     ...reactHooks.configs.flat.recommended,
   },

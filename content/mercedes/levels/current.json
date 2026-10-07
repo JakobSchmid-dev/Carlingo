@@ -1,0 +1,52 @@
+{
+  "collection": "current",
+  "title": "Aktuelles Programm",
+  "description": "Die Modelle, die heute auf der Straße neu unterwegs sind.",
+  "levels": [
+    {
+      "id": "series-basics",
+      "title": "Modellreihen erkennen",
+      "description": "Die wichtigsten Modelle auf einen Blick erkennen.",
+      "filter": { "subBrand": ["mercedes-benz"] },
+      "generators": ["image-to-name", "name-to-image"],
+      "difficulty": 1,
+      "unlockAfter": []
+    },
+    {
+      "id": "classify",
+      "title": "Einordnen",
+      "description": "Karosserieform und Antrieb bestimmen.",
+      "filter": {},
+      "generators": ["body-style", "powertrain"],
+      "difficulty": 2,
+      "unlockAfter": ["series-basics"]
+    },
+    {
+      "id": "details",
+      "title": "Details erkennen",
+      "description": "Modelle an Leuchten und Kühlergrill erkennen.",
+      "filter": {},
+      "generators": ["detail-to-name"],
+      "difficulty": 2,
+      "unlockAfter": ["series-basics"]
+    },
+    {
+      "id": "look-alikes",
+      "title": "Verwechslungsgefahr",
+      "description": "Ähnliche Modelle sicher auseinanderhalten.",
+      "filter": {},
+      "generators": ["image-to-name", "name-to-image", "detail-to-name"],
+      "difficulty": 3,
+      "unlockAfter": ["details"]
+    },
+    {
+      "id": "knowledge",
+      "title": "Baureihen und Leistung",
+      "description": "Wissen für Kenner. Fragen erscheinen, sobald ein Steckbrief freigeschaltet ist.",
+      "filter": {},
+      "generators": ["model-code", "power-compare"],
+      "difficulty": 3,
+      "unlockAfter": ["series-basics"]
+    }
+  ]
+}

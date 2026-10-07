@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="hsl(321 45% 88%)" />
+  <g fill="hsl(321 40% 35%)" stroke="hsl(321 40% 35%)">
+      <rect x="220" y="200" width="360" height="200" rx="40" />
+      <rect x="250" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="286" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="322" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="358" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="394" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="430" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="466" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="502" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" /><rect x="538" y="225" width="14" height="150" rx="6" fill="white" opacity="0.6" />
+  </g>
+  <text x="400" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" fill="hsl(321 40% 22%)">glc-suv-electric-x540</text>
+  <text x="400" y="568" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="hsl(321 30% 30%)">Front · Detail · Platzhalter</text>
+</svg>

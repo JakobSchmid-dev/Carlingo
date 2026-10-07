@@ -1,0 +1,35 @@
+{
+  "id": "mercedes",
+  "name": "Mercedes-Benz",
+  "families": [
+    { "id": "compact", "label": "Kompaktwagen" },
+    { "id": "saloon", "label": "Limousinen" },
+    { "id": "estate", "label": "T-Modelle" },
+    { "id": "suv", "label": "SUV & Geländewagen" },
+    { "id": "coupe", "label": "Coupés" },
+    { "id": "convertible", "label": "Cabriolets & Roadster" },
+    { "id": "van", "label": "Vans" }
+  ],
+  "bodyStyles": [
+    { "id": "hatchback", "label": "Schrägheck" },
+    { "id": "saloon", "label": "Limousine" },
+    { "id": "estate", "label": "Kombi (T-Modell)" },
+    { "id": "suv", "label": "SUV" },
+    { "id": "suv-coupe", "label": "SUV-Coupé" },
+    { "id": "coupe", "label": "Coupé" },
+    { "id": "cabriolet", "label": "Cabriolet" },
+    { "id": "roadster", "label": "Roadster" },
+    { "id": "van", "label": "Van" }
+  ],
+  "subBrands": [
+    { "id": "mercedes-benz", "label": "Mercedes-Benz" },
+    { "id": "mercedes-amg", "label": "Mercedes-AMG" },
+    { "id": "mercedes-maybach", "label": "Mercedes-Maybach" }
+  ],
+  "glossary": [
+    { "term": "4MATIC", "text": "Allradantrieb" },
+    { "term": "4MATIC+", "text": "Allradantrieb bei Mercedes-AMG-Modellen" },
+    { "term": "EQ Technologie", "text": "Bezeichnung für elektrisch angetriebene Modelle" },
+    { "term": "T-Modell", "text": "Mercedes-Bezeichnung für Kombis" }
+  ]
+}

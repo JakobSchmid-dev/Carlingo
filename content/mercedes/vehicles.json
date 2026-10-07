@@ -1,0 +1,543 @@
+[
+  {
+    "id": "c-class-saloon-w206",
+    "displayName": "C-Klasse Limousine",
+    "series": "C-Klasse",
+    "family": "saloon",
+    "bodyStyle": "saloon",
+    "powertrain": "combustion",
+    "subBrand": "mercedes-benz",
+    "modelCode": "W206",
+    "production": {
+      "from": 2021,
+      "to": null,
+      "faceliftYears": []
+    },
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "similarTo": [
+      "e-class-saloon-w214"
+    ],
+    "features": [
+      {
+        "area": "rear",
+        "text": "Zweigeteilte Heckleuchten"
+      },
+      {
+        "area": "front",
+        "text": "Zwei Powerdomes auf der Motorhaube"
+      },
+      {
+        "area": "side",
+        "text": "Sicke unter der Fensterlinie, die nach hinten ansteigt"
+      }
+    ],
+    "engines": [
+      {
+        "name": "C 200 d",
+        "fuel": "diesel",
+        "powerKw": 120,
+        "powerPs": 163
+      },
+      {
+        "name": "C 220 d",
+        "fuel": "diesel",
+        "powerKw": 147,
+        "powerPs": 200
+      },
+      {
+        "name": "C 300 d",
+        "fuel": "diesel",
+        "powerKw": 195,
+        "powerPs": 265
+      }
+    ],
+    "funFact": "Die Powerdomes auf der Motorhaube waren früher den AMG-Modellen vorbehalten.",
+    "images": [
+      {
+        "file": "c-class-saloon-w206-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "c-class-saloon-w206-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "c-class-saloon-w206-rear-detail.svg",
+        "view": "rear",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "dataSources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W206)",
+      "https://www.angurten.de/is/technische-daten/Mercedes-C-Klasse+Limousine-C+200+d+Limousine+%28163+%2B+20-23+PS%29-120-kW-163-PS-2035-18082.html",
+      "https://www.angurten.de/is/technische-daten/Mercedes-C-Klasse+Limousine-C+220+d+Limousine+%28200+%2B+20-23+PS%29-147-kW-200-PS-2035-18083.html",
+      "https://www.angurten.de/is/technische-daten/Mercedes-C-Klasse+Limousine-C+300+d+Limousine+%28265+%2B+20-23+PS%29-195-kW-265-PS-2035-18085.html",
+      "https://www.autobild.de/artikel/mercedes-c-klasse-w-206-2021-design-highlights-20297855.html"
+    ],
+    "verified": false
+  },
+  {
+    "id": "c-class-estate-s206",
+    "displayName": "C-Klasse T-Modell",
+    "series": "C-Klasse",
+    "family": "estate",
+    "bodyStyle": "estate",
+    "powertrain": "combustion",
+    "subBrand": "mercedes-benz",
+    "modelCode": "S206",
+    "production": {
+      "from": 2021,
+      "to": null,
+      "faceliftYears": []
+    },
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "similarTo": [
+      "c-class-saloon-w206"
+    ],
+    "features": [
+      {
+        "area": "front",
+        "text": "Zwei Powerdomes auf der Motorhaube, wie bei der Limousine"
+      }
+    ],
+    "engines": [
+      {
+        "name": "C 220 d T-Modell",
+        "fuel": "diesel",
+        "powerKw": 147,
+        "powerPs": 200
+      }
+    ],
+    "images": [
+      {
+        "file": "c-class-estate-s206-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "c-class-estate-s206-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "c-class-estate-s206-rear-detail.svg",
+        "view": "rear",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "dataSources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W206)",
+      "https://autotijd.be/de/technische-daten/mercedes/c-klasse-break/c-220-d-200-hp"
+    ],
+    "verified": false
+  },
+  {
+    "id": "e-class-saloon-w214",
+    "displayName": "E-Klasse Limousine",
+    "series": "E-Klasse",
+    "family": "saloon",
+    "bodyStyle": "saloon",
+    "powertrain": "combustion",
+    "subBrand": "mercedes-benz",
+    "modelCode": "W214",
+    "production": {
+      "from": 2023,
+      "to": null,
+      "faceliftYears": []
+    },
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "similarTo": [
+      "c-class-saloon-w206"
+    ],
+    "features": [
+      {
+        "area": "rear",
+        "text": "Heckleuchten mit zwei Mercedes-Sternen pro Seite als Lichtgrafik"
+      },
+      {
+        "area": "front",
+        "text": "Schwarzes Paneel verbindet Kühlergrill und Scheinwerfer"
+      }
+    ],
+    "engines": [
+      {
+        "name": "E 220 d 4MATIC",
+        "fuel": "diesel",
+        "powerKw": 145,
+        "powerPs": 197
+      },
+      {
+        "name": "E 450 d 4MATIC",
+        "fuel": "diesel",
+        "powerKw": 270,
+        "powerPs": 367
+      }
+    ],
+    "images": [
+      {
+        "file": "e-class-saloon-w214-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "e-class-saloon-w214-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "e-class-saloon-w214-rear-detail.svg",
+        "view": "rear",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "dataSources": [
+      "https://www.angurten.de/is/technische-daten/Mercedes-E-Klasse+Limousine-E+220+d+4MATIC+%28197+%2B+23+PS%29-145-kW-197-PS-2114-19086.html",
+      "https://www.angurten.de/is/technische-daten/Mercedes-E-Klasse+Limousine-E+450+d+4MATIC+%28367+%2B+23+PS%29-270-kW-367-PS-2114-19344.html",
+      "https://mbpassion.de/2023/05/das-exterieurdesign-der-neuen-e-klasse-von-mercedes-benz/"
+    ],
+    "verified": false
+  },
+  {
+    "id": "glc-suv-x254",
+    "displayName": "GLC",
+    "series": "GLC",
+    "family": "suv",
+    "bodyStyle": "suv",
+    "powertrain": "combustion",
+    "subBrand": "mercedes-benz",
+    "modelCode": "X254",
+    "production": {
+      "from": 2022,
+      "to": null,
+      "faceliftYears": []
+    },
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "similarTo": [
+      "gle-suv-v167",
+      "glc-suv-electric-x540"
+    ],
+    "features": [
+      {
+        "area": "front",
+        "text": "Scheinwerfer reichen bis an den Kühlergrill heran und betonen die Breite"
+      }
+    ],
+    "engines": [
+      {
+        "name": "GLC 200 4MATIC",
+        "fuel": "petrol",
+        "powerKw": 150,
+        "powerPs": 204
+      },
+      {
+        "name": "GLC 220 d 4MATIC",
+        "fuel": "diesel",
+        "powerKw": 145,
+        "powerPs": 197
+      },
+      {
+        "name": "GLC 300 4MATIC",
+        "fuel": "petrol",
+        "powerKw": 190,
+        "powerPs": 258
+      }
+    ],
+    "images": [
+      {
+        "file": "glc-suv-x254-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "glc-suv-x254-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "glc-suv-x254-rear-detail.svg",
+        "view": "rear",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "dataSources": [
+      "https://www.angurten.de/is/technische-daten/Mercedes-GLC-GLC+200+4MATIC+%28204+%2B+23+PS%29-150-kW-204-PS-2084-18627.html",
+      "https://www.angurten.de/is/technische-daten/Mercedes-GLC-GLC+220+d+4MATIC+%28197+%2B+23+PS%29-145-kW-197-PS-2084-18628.html",
+      "https://www.angurten.de/is/technische-daten/Mercedes-GLC-GLC+300+4MATIC+%28258+%2B+23+PS%29-190-kW-258-PS-2084-18629.html",
+      "https://www.wapcar.my/news/47862/amp"
+    ],
+    "verified": false
+  },
+  {
+    "id": "glc-suv-electric-x540",
+    "displayName": "GLC mit EQ Technologie",
+    "series": "GLC",
+    "family": "suv",
+    "bodyStyle": "suv",
+    "powertrain": "electric",
+    "subBrand": "mercedes-benz",
+    "modelCode": "X540",
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "similarTo": [
+      "glc-suv-x254"
+    ],
+    "features": [
+      {
+        "area": "front",
+        "text": "Neu gestalteter Kühlergrill, auf Wunsch beleuchtet mit 942 Lichtpunkten"
+      }
+    ],
+    "engines": [
+      {
+        "name": "GLC 400 4MATIC mit EQ Technologie",
+        "fuel": "electric",
+        "powerKw": 360,
+        "powerPs": 489
+      }
+    ],
+    "funFact": "Mercedes gibt für den GLC 400 4MATIC eine WLTP-Reichweite von bis zu 713 km an.",
+    "images": [
+      {
+        "file": "glc-suv-electric-x540-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "glc-suv-electric-x540-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "glc-suv-electric-x540-front-detail.svg",
+        "view": "front",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "dataSources": [
+      "https://www.mercedes-benz.ie/models/glc-electric-x540/",
+      "https://www.auto-motor-und-sport.de/test/mercedes-glc-400-4matic-fahrtest-489-ps-800-v-offroad-ki-cockpit/",
+      "https://insideevs.com/news/767871/mercedes-glc-illuminated-grille/",
+      "https://goauto.com.au/future-models/mercedes-benz/glc/eq/2025-09-08/97349.html"
+    ],
+    "verified": false
+  },
+  {
+    "id": "gle-suv-v167",
+    "displayName": "GLE",
+    "series": "GLE",
+    "family": "suv",
+    "bodyStyle": "suv",
+    "powertrain": "combustion",
+    "subBrand": "mercedes-benz",
+    "modelCode": "V167",
+    "production": {
+      "from": 2019,
+      "to": null,
+      "faceliftYears": [
+        2023
+      ]
+    },
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "similarTo": [
+      "glc-suv-x254"
+    ],
+    "engines": [
+      {
+        "name": "GLE 350 d 4MATIC",
+        "fuel": "diesel",
+        "powerKw": 210,
+        "powerPs": 286
+      },
+      {
+        "name": "GLE 450 4MATIC",
+        "fuel": "petrol",
+        "powerKw": 280,
+        "powerPs": 381
+      },
+      {
+        "name": "GLE 450 d 4MATIC",
+        "fuel": "diesel",
+        "powerKw": 270,
+        "powerPs": 367
+      }
+    ],
+    "images": [
+      {
+        "file": "gle-suv-v167-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "gle-suv-v167-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "gle-suv-v167-rear-detail.svg",
+        "view": "rear",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "dataSources": [
+      "https://www.angurten.de/is/technische-daten/Mercedes-GLE-GLE+350d+4MATIC+%28286+%2B+23+PS%29-210-kW-286-PS-1851-20132.html",
+      "https://www.angurten.de/is/technische-daten/Mercedes-GLE-GLE+450+4MATIC+%28381+%2B+23+PS%29-280-kW-381-PS-1851-20134.html",
+      "https://www.angurten.de/is/technische-daten/Mercedes-GLE-GLE+450d+4MATIC+%28367+%2B+23+PS%29-270-kW-367-PS-1851-20133.html",
+      "https://auto-motor-und-sport.de/marken-modelle/mercedes/gle/v167-c167/news"
+    ],
+    "verified": false
+  },
+  {
+    "id": "amg-sl-r232",
+    "displayName": "Mercedes-AMG SL",
+    "series": "SL",
+    "family": "convertible",
+    "bodyStyle": "roadster",
+    "powertrain": "combustion",
+    "subBrand": "mercedes-amg",
+    "modelCode": "R232",
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "features": [
+      {
+        "area": "front",
+        "text": "Kühlergrill mit 14 senkrechten Lamellen, ein Zitat des 300 SL von 1952"
+      },
+      {
+        "area": "general",
+        "text": "Stoffverdeck statt Klappdach aus Metall"
+      },
+      {
+        "area": "interior",
+        "text": "2+2-Sitzer mit kleinen Rücksitzen"
+      }
+    ],
+    "engines": [
+      {
+        "name": "Mercedes-AMG SL 43",
+        "fuel": "petrol",
+        "powerKw": 280,
+        "powerPs": 381
+      },
+      {
+        "name": "Mercedes-AMG SL 55 4MATIC+",
+        "fuel": "petrol",
+        "powerKw": 350,
+        "powerPs": 476
+      },
+      {
+        "name": "Mercedes-AMG SL 63 4MATIC+",
+        "fuel": "petrol",
+        "powerKw": 430,
+        "powerPs": 585
+      }
+    ],
+    "funFact": "Der SL dieser Generation wurde komplett von Mercedes-AMG in Affalterbach entwickelt und ist der erste SL mit Allradantrieb.",
+    "images": [
+      {
+        "file": "amg-sl-r232-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "amg-sl-r232-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "amg-sl-r232-front-detail.svg",
+        "view": "front",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "dataSources": [
+      "https://mbpassion.de/2021/10/alle-bilder-details-zur-neuauflage-der-ikone-der-mercedes-amg-sl/",
+      "https://completecar.ie/car-news/article/11265/Mercedes-reveals-new-AMG-badged-SL",
+      "https://www.autoscout24.at/auto/technische-daten/mercedes-benz/sl/"
+    ],
+    "verified": false
+  }
+]

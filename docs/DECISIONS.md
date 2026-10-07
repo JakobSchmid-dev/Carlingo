@@ -23,3 +23,38 @@ Eigene Entscheidungen bei der Umsetzung von `SPEC.md`, jeweils mit Begründung.
 - **Relativer Basispfad (`base: './'`).** Zusammen mit Hash-Routing läuft der Build unter jedem
   GitHub-Pages-Pfad, unabhängig vom Repository-Namen.
 - **`SPEC.md`** ist eine Markdown-Abschrift der als PDF übergebenen Spezifikation.
+
+## Datenmodell
+
+- **Sparten als eigene Level-Dateien.** Statt einer `levels.json` pro Marke gibt es den Ordner
+  `content/<marke>/levels/` mit einer Datei pro Sparte (z. B. `current.json`, später
+  `historic.json`). Jede Datei hat das Format aus der Spezifikation plus einen Titel für die Sparte.
+  Eine neue Sparte ist damit eine neue Datei ohne Codeänderung. (Mit der Nutzerin abgestimmt.)
+- **Karosserieformen und Submarken stehen in `brand.json`** (`bodyStyles`, `subBrands`), genauso
+  aufgebaut wie `families`. Die Spezifikation nennt für `subBrand` feste Mercedes-Werte und für
+  `bodyStyle` gar keine. Als feste Liste im Code bräuchte jede neue Marke oder Karosserieform eine
+  Codeänderung. Die Werte aus der Spezifikation stehen in `content/mercedes/brand.json`.
+- **`vehicles.json` ist eine Liste** von Fahrzeugen (die Spezifikation zeigt nur einen Eintrag).
+- **Zusätzliches optionales Feld `dataSources`** pro Fahrzeug: Liste der Quellen für die
+  technischen Angaben. Erleichtert die Prüfung vor `"verified": true`.
+- **`fuel` bei Motoren:** `petrol`, `diesel` oder `electric` (Spezifikation zeigt nur `diesel`).
+- **`displayName` muss innerhalb einer Marke eindeutig sein**, damit Antwortmöglichkeiten nie
+  denselben Text haben. Beispiel: „GLC“ und „GLC mit EQ Technologie“.
+- **Mindestens ein Gesamtbild pro Fahrzeug** (`"detail": false`), weil Sammlung, Steckbrief und
+  die meisten Fragen ein Gesamtbild brauchen.
+- **Unbekannte Felder sind ein Fehler.** So fallen Tippfehler wie `"dispalyName"` sofort auf,
+  statt stillschweigend ignoriert zu werden.
+- **Zusätzliche Prüfungen in `npm run validate`:** Filterwerte, die auf kein Fahrzeug passen;
+  kW/PS-Werte, die nicht zueinander passen; doppelt verwendete Bilddateien; Level-Datei ohne
+  Fahrzeuge. Jedes Level muss mindestens 4 Fahrzeuge haben **und** jeder seiner Fragetypen muss
+  mindestens eine Frage bilden können.
+- **Inhalte sind von Prettier ausgenommen.** Die CI soll für Inhaltspflegende nicht an
+  Formatierung scheitern; die fachliche Prüfung macht `npm run validate`.
+
+## Bilder
+
+- **Platzhalter per Skript:** `npm run placeholders` erzeugt für jedes eingetragene, aber noch
+  fehlende `.svg`-Bild eine Platzhaltergrafik (Farbe je Fahrzeug, einfache Silhouette je Ansicht
+  und Karosserieform, Fahrzeug-ID und Ansicht als Text). Vorhandene Dateien werden nie überschrieben.
+- **Dateinamen:** `<fahrzeug-id>-<ansicht>[-detail].<endung>`, nur Kleinbuchstaben, Ziffern und
+  Bindestriche. Erlaubt sind `svg`, `jpg`, `jpeg`, `png`, `webp`, `avif`.
