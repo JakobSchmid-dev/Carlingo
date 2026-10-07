@@ -7,8 +7,15 @@
       "id": "series-basics",
       "title": "Modellreihen erkennen",
       "description": "Die wichtigsten Modelle auf einen Blick erkennen.",
-      "filter": { "subBrand": ["mercedes-benz"] },
-      "generators": ["image-to-name", "name-to-image"],
+      "filter": {
+        "subBrand": [
+          "mercedes-benz"
+        ]
+      },
+      "generators": [
+        "image-to-name",
+        "name-to-image"
+      ],
       "difficulty": 1,
       "unlockAfter": []
     },
@@ -17,36 +24,75 @@
       "title": "Einordnen",
       "description": "Karosserieform und Antrieb bestimmen.",
       "filter": {},
-      "generators": ["body-style", "powertrain"],
+      "generators": [
+        "body-style",
+        "powertrain"
+      ],
       "difficulty": 2,
-      "unlockAfter": ["series-basics"]
+      "unlockAfter": [
+        "series-basics"
+      ]
     },
     {
       "id": "details",
       "title": "Details erkennen",
       "description": "Modelle an Leuchten und Kühlergrill erkennen.",
       "filter": {},
-      "generators": ["detail-to-name"],
+      "generators": [
+        "detail-to-name"
+      ],
       "difficulty": 2,
-      "unlockAfter": ["series-basics"]
+      "unlockAfter": [
+        "series-basics"
+      ]
+    },
+    {
+      "id": "suv-family",
+      "title": "SUVs unterscheiden",
+      "description": "GLC, GLE und G-Klasse sicher auseinanderhalten.",
+      "filter": {
+        "family": [
+          "suv"
+        ]
+      },
+      "generators": [
+        "image-to-name",
+        "name-to-image",
+        "detail-to-name"
+      ],
+      "difficulty": 3,
+      "unlockAfter": [
+        "series-basics"
+      ]
     },
     {
       "id": "look-alikes",
       "title": "Verwechslungsgefahr",
       "description": "Ähnliche Modelle sicher auseinanderhalten.",
       "filter": {},
-      "generators": ["image-to-name", "name-to-image", "detail-to-name"],
+      "generators": [
+        "image-to-name",
+        "name-to-image",
+        "detail-to-name"
+      ],
       "difficulty": 3,
-      "unlockAfter": ["details"]
+      "unlockAfter": [
+        "details"
+      ]
     },
     {
       "id": "knowledge",
       "title": "Baureihen und Leistung",
       "description": "Wissen für Kenner. Fragen erscheinen, sobald ein Steckbrief freigeschaltet ist.",
       "filter": {},
-      "generators": ["model-code", "power-compare"],
+      "generators": [
+        "model-code",
+        "power-compare"
+      ],
       "difficulty": 3,
-      "unlockAfter": ["series-basics"]
+      "unlockAfter": [
+        "series-basics"
+      ]
     }
   ]
 }

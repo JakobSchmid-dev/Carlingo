@@ -539,5 +539,48 @@
       "https://www.autoscout24.at/auto/technische-daten/mercedes-benz/sl/"
     ],
     "verified": false
+  },
+  {
+    "id": "g-class-suv",
+    "displayName": "G-Klasse",
+    "series": "G-Klasse",
+    "family": "suv",
+    "bodyStyle": "suv",
+    "powertrain": "combustion",
+    "subBrand": "mercedes-benz",
+    "status": "current",
+    "collections": [
+      "current"
+    ],
+    "similarTo": [
+      "gle-suv-v167"
+    ],
+    "images": [
+      {
+        "file": "g-class-suv-front-three-quarter.svg",
+        "view": "front-three-quarter",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "g-class-suv-rear.svg",
+        "view": "rear",
+        "detail": false,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      },
+      {
+        "file": "g-class-suv-rear-detail.svg",
+        "view": "rear",
+        "detail": true,
+        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
+        "author": "Carlingo",
+        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+      }
+    ],
+    "verified": false
   }
 ]

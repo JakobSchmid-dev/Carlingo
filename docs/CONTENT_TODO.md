@@ -31,6 +31,7 @@ tragen `"verified": false`.** Nach der Prüfung eines Fahrzeugs `"verified": tru
 | `glc-suv-x254`          | Merkmal Front stammt aus nur einer Quelle; Merkmal Heck fehlt; Facelift prüfen                                                                             |
 | `glc-suv-electric-x540` | **Bauzeit fehlt** (Quellen nennen Vorstellung 09/2025, Produktionsstart 2025 oder 2026); Baureihe X540 nur durch eine Quelle (Mercedes-Website-URL) belegt |
 | `gle-suv-v167`          | **Keine Merkmale**; Fun Fact fehlt; zweites Facelift 2026 prüfen                                                                                           |
+| `g-class-suv`           | **Nur Pflichtangaben** (bei der Abnahme als Testfall ergänzt): Baureihe, Bauzeit, Motoren, Merkmale fehlen; elektrische G-Klasse als eigener Eintrag       |
 | `amg-sl-r232`           | **Bauzeit fehlt** (Quellen widersprüchlich: 2021 oder 2022); SL 63 S E Performance ergänzen                                                                |
 
 ## Fehlende Inhalte für den Ausbau
