@@ -195,8 +195,17 @@ Erlaubte Endungen: `jpg`, `jpeg`, `png`, `webp`, `avif`, `svg`.
 ### Nachweis
 
 Jedes Bild braucht `source` (woher: Link oder „Eigenes Foto“) und `license` (z. B. `"CC BY 4.0"`);
-`author` (Urheber) ist bei den meisten Lizenzen Pflicht und sollte immer ausgefüllt werden. Der
-Bildschirm „Bildnachweise“ in den Einstellungen listet alles automatisch auf.
+`author` (Urheber) ist bei den meisten Lizenzen Pflicht und sollte immer ausgefüllt werden.
+`licenseUrl` (optional) verlinkt den Lizenztext, z. B.
+`"https://creativecommons.org/licenses/by-sa/4.0"`. Wurde das Bild bearbeitet (zugeschnitten,
+Schriftzug unkenntlich gemacht), steht das in `source` – CC-Lizenzen verlangen diesen Hinweis.
+Der Bildschirm „Bildnachweise“ in den Einstellungen listet alles automatisch auf; Links darin
+sind anklickbar.
+
+**Gute Quelle:** [Wikimedia Commons](https://commons.wikimedia.org) hat zu fast jeder Baureihe
+eine Kategorie (z. B. „Mercedes-Benz X254“). Nur Bilder mit CC0, CC BY oder CC BY-SA verwenden,
+keine mit „NC“ oder „ND“. Auf Detailbildern darf kein Schriftzug das Modell verraten (z. B.
+„E 200“ auf dem Kofferraumdeckel) – wegschneiden oder unkenntlich machen.
 
 ### Platzhalter durch ein Foto ersetzen
 

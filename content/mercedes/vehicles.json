@@ -69,28 +69,31 @@
     "funFact": "Die Powerdomes auf der Motorhaube waren früher den AMG-Modellen vorbehalten.",
     "images": [
       {
-        "file": "c-class-saloon-w206-front-three-quarter.svg",
+        "file": "c-class-saloon-w206-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C_200_AMG_Line_(W_206)_%E2%80%93_f_18042025.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
       {
-        "file": "c-class-saloon-w206-rear.svg",
-        "view": "rear",
+        "file": "c-class-saloon-w206-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C_200_AMG_Line_(W_206)_%E2%80%93_h_18042025.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
       {
-        "file": "c-class-saloon-w206-rear-detail.svg",
+        "file": "c-class-saloon-w206-rear-detail.jpg",
         "view": "rear",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C_200_AMG_Line_(W_206)_%E2%80%93_h_18042025.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     ],
     "dataSources": [
@@ -152,28 +155,31 @@
     ],
     "images": [
       {
-        "file": "c-class-estate-s206-front-three-quarter.svg",
+        "file": "c-class-estate-s206-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S206_IMG_5957.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "c-class-estate-s206-rear.svg",
-        "view": "rear",
+        "file": "c-class-estate-s206-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S206_IMG_5958.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "c-class-estate-s206-rear-detail.svg",
+        "file": "c-class-estate-s206-rear-detail.jpg",
         "view": "rear",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S206_IMG_5958.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
     "dataSources": [
@@ -236,28 +242,31 @@
     ],
     "images": [
       {
-        "file": "e-class-saloon-w214-front-three-quarter.svg",
+        "file": "e-class-saloon-w214-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W214_1X7A0885.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "e-class-saloon-w214-rear.svg",
-        "view": "rear",
+        "file": "e-class-saloon-w214-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E-Klasse_(W214)_164600354.jpg (zugeschnitten und verkleinert)",
+        "author": "Trop86",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
       {
-        "file": "e-class-saloon-w214-rear-detail.svg",
+        "file": "e-class-saloon-w214-rear-detail.jpg",
         "view": "rear",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:The_rear_light_of_Mercedes-Benz_E_200_AVANTGARDE_(4AA-214050C).jpg (zugeschnitten und verkleinert)",
+        "author": "Tokumeigakarinoaoshima",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
     "dataSources": [
@@ -325,28 +334,31 @@
     "funFact": "Der GLC dieser Generation wird in Sindelfingen, Bremen und Peking gebaut.",
     "images": [
       {
-        "file": "glc-suv-x254-front-three-quarter.svg",
+        "file": "glc-suv-x254-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_X254_1X7A6343.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "glc-suv-x254-rear.svg",
-        "view": "rear",
+        "file": "glc-suv-x254-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_X254_1X7A6346.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "glc-suv-x254-rear-detail.svg",
+        "file": "glc-suv-x254-rear-detail.jpg",
         "view": "rear",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_X254_1X7A6346.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
     "dataSources": [
@@ -396,28 +408,31 @@
     "funFact": "Mercedes gibt für den GLC 400 4MATIC eine WLTP-Reichweite von bis zu 713 km an.",
     "images": [
       {
-        "file": "glc-suv-electric-x540-front-three-quarter.svg",
+        "file": "glc-suv-electric-x540-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLC_with_EQ_Technology_IMG_7083.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "glc-suv-electric-x540-rear.svg",
-        "view": "rear",
+        "file": "glc-suv-electric-x540-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLC_with_EQ_Technology_IMG_7086.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "glc-suv-electric-x540-front-detail.svg",
+        "file": "glc-suv-electric-x540-front-detail.jpg",
         "view": "front",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLC_with_EQ_Technology_IAA_2025_DSC_2103.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander-93",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
     "dataSources": [
@@ -475,28 +490,31 @@
     "funFact": "Der GLE wird im Mercedes-Benz-Werk in Tuscaloosa in den USA gebaut.",
     "images": [
       {
-        "file": "gle-suv-v167-front-three-quarter.svg",
+        "file": "gle-suv-v167-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_(V_167)_%E2%80%93_f_18042021.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
       {
-        "file": "gle-suv-v167-rear.svg",
-        "view": "rear",
+        "file": "gle-suv-v167-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_(V_167)_%E2%80%93_h_18042021.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
       {
-        "file": "gle-suv-v167-rear-detail.svg",
+        "file": "gle-suv-v167-rear-detail.jpg",
         "view": "rear",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_(V_167)_%E2%80%93_h_18042021.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     ],
     "dataSources": [
@@ -563,28 +581,31 @@
     "funFact": "Der SL dieser Generation wurde komplett von Mercedes-AMG in Affalterbach entwickelt und ist der erste SL mit Allradantrieb.",
     "images": [
       {
-        "file": "amg-sl-r232-front-three-quarter.svg",
+        "file": "amg-sl-r232-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-AMG_SL_43_(R_232)_%E2%80%93_f_21012024.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
       {
-        "file": "amg-sl-r232-rear.svg",
-        "view": "rear",
+        "file": "amg-sl-r232-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-AMG_SL_43_(R_232)_%E2%80%93_h_21012024.jpg (zugeschnitten und verkleinert)",
+        "author": "© M 93",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
       {
-        "file": "amg-sl-r232-front-detail.svg",
+        "file": "amg-sl-r232-front-detail.jpg",
         "view": "front",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:2023_Mercedes-Benz_SL55_AMG_Touring%2B_4Matic_-_3982cc_4.0_(475PS)_Petrol_-_Opalite_White_-_02-2024,_Front.jpg (zugeschnitten und verkleinert)",
+        "author": "Harvey Bold",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     ],
     "dataSources": [
@@ -633,28 +654,31 @@
     "funFact": "Seit 2024 gibt es die G-Klasse auch elektrisch: Der G 580 mit EQ Technologie hat vier Elektromotoren.",
     "images": [
       {
-        "file": "g-class-suv-front-three-quarter.svg",
+        "file": "g-class-suv-front-three-quarter.jpg",
         "view": "front-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W465_DSC_8926.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "g-class-suv-rear.svg",
-        "view": "rear",
+        "file": "g-class-suv-rear-three-quarter.jpg",
+        "view": "rear-three-quarter",
         "detail": false,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G_450_d_Launch_Edition_(W465)_rear.jpg (zugeschnitten und verkleinert, Schriftzug unkenntlich gemacht)",
+        "author": "Tokumeigakarinoaoshima",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "file": "g-class-suv-rear-detail.svg",
-        "view": "rear",
+        "file": "g-class-suv-front-detail.jpg",
+        "view": "front",
         "detail": true,
-        "source": "Platzhalter, automatisch erzeugt mit npm run placeholders",
-        "author": "Carlingo",
-        "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
+        "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W465_DSC_8926.jpg (zugeschnitten und verkleinert)",
+        "author": "Alexander Migl",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
     "dataSources": [

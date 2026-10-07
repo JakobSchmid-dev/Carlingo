@@ -82,6 +82,8 @@ export const imageSchema = z.strictObject({
   source: text,
   author: text.optional(),
   license: text,
+  /** Link to the license text, e.g. https://creativecommons.org/licenses/by-sa/4.0 */
+  licenseUrl: z.url({ error: 'muss ein Link sein (https://…)' }).optional(),
 });
 
 export const vehicleSchema = z.strictObject({

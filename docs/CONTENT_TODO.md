@@ -29,16 +29,16 @@ Was ein Mensch prüfen und ergänzen muss, bevor die Beispieldaten als geprüft 
 
 ## Pro Fahrzeug
 
-| Fahrzeug                | Offen                                                                                                                                                                                           |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `c-class-saloon-w206`   | Facelift-Jahr prüfen                                                                                                                                                                            |
-| `c-class-estate-s206`   | Eigene Merkmale für Heck und Seite. Hinweis: mb-wallpaper.de schreibt beim T-Modell „W206“; andere Quellen und Commons nennen „S206“ (eingetragen).                                             |
-| `e-class-saloon-w214`   | Merkmal Seite                                                                                                                                                                                   |
-| `glc-suv-x254`          | Merkmal Front stammt aus nur einer Quelle; Merkmal Heck fehlt; Facelift prüfen                                                                                                                  |
-| `glc-suv-electric-x540` | Bauzeit „ab 2026“ laut mb-wallpaper.de (Verkauf ab 05/2026), Vorstellung IAA 2025                                                                                                               |
-| `gle-suv-v167`          | **Keine Merkmale.** Leistungswerte stammen aus den Datenblättern nach dem Facelift 2023; mb-wallpaper.de nennt noch die Werte vor dem Facelift (z. B. GLE 450 4MATIC 270 statt 280 kW). Prüfen. |
-| `g-class-suv`           | Merkmale fehlen; G 580 mit EQ Technologie als eigener Eintrag (elektrisch); AMG G 63 als eigener Eintrag (Mercedes-AMG)                                                                         |
-| `amg-sl-r232`           | SL 43 seit 05/2024 mit 310 kW (421 PS), vorher 280 kW (381 PS) – eingetragen ist der aktuelle Wert; SL 63 S E Performance ergänzen                                                              |
+| Fahrzeug                | Offen                                                                                                                                                                                                                                                  |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `c-class-saloon-w206`   | Facelift-Jahr prüfen                                                                                                                                                                                                                                   |
+| `c-class-estate-s206`   | Eigene Merkmale für Heck und Seite. Hinweis: mb-wallpaper.de schreibt beim T-Modell „W206“; andere Quellen und Commons nennen „S206“ (eingetragen).                                                                                                    |
+| `e-class-saloon-w214`   | Merkmal Seite                                                                                                                                                                                                                                          |
+| `glc-suv-x254`          | Merkmal Front stammt aus nur einer Quelle; Merkmal Heck fehlt; Facelift prüfen                                                                                                                                                                         |
+| `glc-suv-electric-x540` | Bauzeit „ab 2026“ laut mb-wallpaper.de (Verkauf ab 05/2026), Vorstellung IAA 2025                                                                                                                                                                      |
+| `gle-suv-v167`          | **Keine Merkmale.** Die Fotos (2021) zeigen den GLE vor dem Facelift 2023. Leistungswerte stammen aus den Datenblättern nach dem Facelift 2023; mb-wallpaper.de nennt noch die Werte vor dem Facelift (z. B. GLE 450 4MATIC 270 statt 280 kW). Prüfen. |
+| `g-class-suv`           | Merkmale fehlen; G 580 mit EQ Technologie als eigener Eintrag (elektrisch); AMG G 63 als eigener Eintrag (Mercedes-AMG)                                                                                                                                |
+| `amg-sl-r232`           | SL 43 seit 05/2024 mit 310 kW (421 PS), vorher 280 kW (381 PS) – eingetragen ist der aktuelle Wert; SL 63 S E Performance ergänzen                                                                                                                     |
 
 ## Fehlende Inhalte für den Ausbau
 
