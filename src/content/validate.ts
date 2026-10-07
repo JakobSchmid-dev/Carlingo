@@ -11,7 +11,7 @@ import {
   POWERTRAINS,
   STATUSES,
   trackFileSchema,
-  vehiclesFileSchema,
+  vehicleSchema,
   type Brand,
   type FilterableField,
   type Vehicle,
@@ -121,25 +121,32 @@ export function validatePackage(
     // syntax error already reported
   } else if (raw.vehicles === undefined) {
     error(vehiclesFile, 'Datei fehlt. Jede Marke braucht eine vehicles.json.');
+  } else if (!Array.isArray(raw.vehicles)) {
+    error(vehiclesFile, 'muss eine Liste [ … ] von Fahrzeugen sein.');
   } else {
-    const parsed = vehiclesFileSchema.safeParse(raw.vehicles);
-    if (parsed.success) {
-      vehicles = parsed.data;
-    } else {
+    // Each vehicle on its own, so one broken entry doesn't hide problems in the others.
+    const entries: unknown[] = raw.vehicles;
+    const valid: Vehicle[] = [];
+    entries.forEach((entry, index) => {
+      const parsed = vehicleSchema.safeParse(entry);
+      if (parsed.success) {
+        valid.push(parsed.data);
+        return;
+      }
+      const vid = rawEntryId(entries, index);
       issues.push(
-        ...zodIssues(parsed.error, vehiclesFile, (path) => {
-          if (typeof path[0] !== 'number') return { consumed: 0 };
-          const vid = rawEntryId(raw.vehicles, path[0]);
-          return {
-            entity: vid ? `Fahrzeug ${quote(vid)}` : `Fahrzeug Nr. ${path[0] + 1}`,
-            consumed: 1,
-          };
-        }),
+        ...zodIssues(parsed.error, vehiclesFile, () => ({
+          entity: vid ? `Fahrzeug ${quote(vid)}` : `Fahrzeug Nr. ${index + 1}`,
+          consumed: 0,
+        })),
       );
+    });
+    if (brand) {
+      const knownIds = entries.flatMap((_, i) => rawEntryId(entries, i) ?? []);
+      checkVehicles(valid, knownIds, brand, raw.imageFiles, vehiclesFile, error);
     }
+    if (valid.length === entries.length) vehicles = valid;
   }
-
-  if (vehicles && brand) checkVehicles(vehicles, brand, raw.imageFiles, vehiclesFile, error);
 
   // --- images/ ----------------------------------------------------------------------------
   if (vehicles) {
@@ -238,12 +245,13 @@ type ErrorFn = (file: string, message: string, entity?: string, field?: string) 
 
 function checkVehicles(
   vehicles: Vehicle[],
+  knownIds: string[],
   brand: Brand,
   imageFiles: string[],
   file: string,
   error: ErrorFn,
 ) {
-  const ids = new Set(vehicles.map((v) => v.id));
+  const ids = new Set(knownIds);
   const families = brand.families.map((f) => f.id);
   const bodyStyles = brand.bodyStyles.map((b) => b.id);
   const subBrands = brand.subBrands.map((s) => s.id);

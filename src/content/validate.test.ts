@@ -52,6 +52,15 @@ describe('validatePackage', () => {
     expect(errors[0]).toContain('Pflichtfeld');
   });
 
+  it('keeps checking the other vehicles when one entry is broken', () => {
+    const { errors } = run((raw) => {
+      delete raw.vehicles[0]!.verified;
+      raw.vehicles[2]!.engines = [{ name: 'Beta 300', fuel: 'petrol', powerKw: 220, powerPs: 399 }];
+    });
+    expect(errors).toHaveLength(2);
+    expect(errors[1]).toContain('Fahrzeug "beta-saloon" · Feld "engines[0].powerPs"');
+  });
+
   it('reports unknown fields as possible typos', () => {
     const { errors } = run((raw) => {
       raw.vehicles[0]!.dispalyName = 'X';

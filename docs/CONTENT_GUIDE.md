@@ -360,10 +360,11 @@ Ein neuer Fragetyp ist der einzige Fall, der **Programmierung** braucht. Für En
 den Motoren), der Antrieb ist `"combustion"`.
 
 ```
-✗ Fehler: content/mercedes/vehicles.json ist kein gültiges JSON (Zeile 42, Spalte 5). Häufige Ursachen: fehlendes oder überzähliges Komma, fehlende Anführungszeichen.
+✗ Fehler: content/mercedes/vehicles.json: ist kein gültiges JSON (Zeile 42, Spalte 5). Häufige Ursachen: fehlendes oder überzähliges Komma, fehlende Anführungszeichen. Technische Meldung: …
 ```
 
-→ In Zeile 42 nach einem Komma- oder Anführungszeichenfehler suchen, oft in der Zeile davor.
+→ In Zeile 42 nach einem Komma- oder Anführungszeichenfehler suchen. Ein fehlendes Komma wird oft
+erst in der Zeile **danach** gemeldet – also auch die Zeile davor prüfen.
 
 ```
 ✗ Fehler: content/mercedes/levels/current.json · Level "suv-family" · Feld "filter": Der Filter ergibt nur 3 Fahrzeug(e) ("glc-suv-x254", "glc-suv-electric-x540", "gle-suv-v167"). Für eine richtige und drei falsche Antworten braucht ein Level mindestens 4.
