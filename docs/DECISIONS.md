@@ -143,3 +143,13 @@ Eigene Entscheidungen bei der Umsetzung von `SPEC.md`, jeweils mit Begründung.
 - **Inhaltsfehler im Entwicklungsmodus:** Ist ein Paket ungültig, zeigt die App statt des
   Lernpfads die Fehlerliste (gleiche Meldungen wie `npm run validate`). Im Build kann das nicht
   vorkommen, weil der Build vorher validiert.
+
+## PWA und Deployment
+
+- **App-Icon:** schlichte Fahrzeug-Silhouette auf Blau (`public/icons/icon.svg`), als PNG in
+  192, 512 und 180 px (Apple) gerendert. Kein Herstellerzeichen. Dasselbe 512er-Bild dient als
+  „maskable“-Icon; die Silhouette liegt in der sicheren Zone.
+- **Offline:** Der Service Worker (vite-plugin-pwa, `autoUpdate`) legt App und alle Bilder beim
+  ersten Besuch ab. Neue Versionen werden beim nächsten Start still übernommen.
+- **CI deployt nur `main`**, wie in der Spezifikation. Andere Branches werden geprüft und gebaut,
+  aber nicht veröffentlicht.

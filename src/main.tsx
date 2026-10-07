@@ -5,6 +5,7 @@ import './index.css';
 import { createAppStore } from './store/appStore.ts';
 import { localStorageAdapter, requestPersistentStorage } from './store/storage.ts';
 import { App } from './ui/App.tsx';
+import { registerSW } from 'virtual:pwa-register';
 
 const root = document.getElementById('root');
 if (!root) throw new Error('Root element #root fehlt in index.html');
@@ -12,6 +13,8 @@ if (!root) throw new Error('Root element #root fehlt in index.html');
 const store = createAppStore(localStorageAdapter());
 void store.getState().hydrate();
 void requestPersistentStorage();
+// Service worker: caches the app for offline use and updates it automatically.
+registerSW({ immediate: true });
 
 createRoot(root).render(
   <StrictMode>
