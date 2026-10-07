@@ -58,3 +58,29 @@ Eigene Entscheidungen bei der Umsetzung von `SPEC.md`, jeweils mit Begründung.
   und Karosserieform, Fahrzeug-ID und Ansicht als Text). Vorhandene Dateien werden nie überschrieben.
 - **Dateinamen:** `<fahrzeug-id>-<ansicht>[-detail].<endung>`, nur Kleinbuchstaben, Ziffern und
   Bindestriche. Erlaubt sind `svg`, `jpg`, `jpeg`, `png`, `webp`, `avif`.
+
+## Fragen-Engine
+
+- **„Passt auf dasselbe Bild“ (Verwechslungsgleichheit):** Zwei Einträge gelten als optisch
+  gleich, wenn Reihe, Karosserie und Baureihe übereinstimmen (z. B. Verbrenner und Plug-in-Hybrid
+  desselben Modells). Fehlt bei einem die Baureihe, gelten sie vorsichtshalber als gleich. Solche
+  Paare erscheinen nie gemeinsam als Antworten einer Bild- oder Namensfrage, und die Frage
+  „Antriebsart“ wird dann gar nicht gestellt, weil sie am Bild nicht entscheidbar wäre.
+- **Ähnlichkeit:** Familie +1, Karosserie +1, Reihe +2, Submarke +1, `similarTo` +3 (in beide
+  Richtungen). Gewichte in `src/engine/config.ts`.
+- **Schwierigkeit 2 („gemischt“):** die Hälfte der falschen Antworten (abgerundet) aus den
+  ähnlichsten Kandidaten, der Rest zufällig.
+- **Texte in Fragen:** Die Engine erzeugt keine deutschen Sätze. Fragen enthalten eine Art
+  (`prompt.kind`) und symbolische Beschriftungen (z. B. Antriebsart `electric`); die Oberfläche
+  übersetzt sie über `src/i18n/de.ts`. Namen aus den Inhalten werden direkt angezeigt.
+- **Antriebsart:** immer alle drei Antworten in fester Reihenfolge (keine vierte Option möglich).
+- **Karosserieform:** Antwortmöglichkeiten kommen aus `brand.json → bodyStyles`, damit auch Formen
+  erscheinen, die im Level gerade nicht vorkommen. Dafür enthält `GenContext` zusätzlich die Liste
+  der Karosserieformen der Marke.
+- **Baureihe:** falsche Antworten sind Baureihen anderer Fahrzeuge des Levels, nach Ähnlichkeit
+  des zugehörigen Fahrzeugs gewählt.
+- **Leistungsvergleich:** Eine Motorisierung gehört immer zum gefragten Fahrzeug, die zweite ist
+  eine andere Motorisierung desselben Fahrzeugs oder eines Fahrzeugs im Level. Verglichen wird nur
+  bei mindestens 5 % Unterschied, damit Modelljahr-Schwankungen keine falschen Fragen erzeugen.
+  Schwierigkeit 3 wählt den kleinsten, Schwierigkeit 1 den größten Abstand. Nach der Antwort werden
+  kW/PS angezeigt. Fehlt `powerKw`, wird aus `powerPs` umgerechnet.
