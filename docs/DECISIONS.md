@@ -84,3 +84,35 @@ Eigene Entscheidungen bei der Umsetzung von `SPEC.md`, jeweils mit Begründung.
   bei mindestens 5 % Unterschied, damit Modelljahr-Schwankungen keine falschen Fragen erzeugen.
   Schwierigkeit 3 wählt den kleinsten, Schwierigkeit 1 den größten Abstand. Nach der Antwort werden
   kW/PS angezeigt. Fehlt `powerKw`, wird aus `powerPs` umgerechnet.
+
+## Lernlogik und Speicherung
+
+- **Tage statt Uhrzeiten:** Fälligkeiten zählen in ganzen lokalen Kalendertagen. „1 Tag“ heißt
+  „ab morgen“, egal zu welcher Uhrzeit heute gelernt wurde.
+- **Nur die erste Antwort pro Fakt und Einheit verschiebt die Karte.** Wiederholungen in derselben
+  Einheit (nach Fehlern oder zum Auffüllen) sind Übung. Neue Fakten starten gedanklich in Fach 1:
+  richtig → Fach 2, falsch → Fach 1.
+- **Kein Vorrücken vor der Fälligkeit.** Wird ein noch nicht fälliger Fakt zum Auffüllen gefragt
+  und richtig beantwortet, bleibt er im Fach (sonst ließe sich der Karteikasten „durchpauken“).
+  Falsch beantwortet fällt er trotzdem in Fach 1.
+- **Weniger als 10 verschiedene Fakten:** Die Einheit wiederholt die ausgewählten Fakten reihum
+  (mit wechselndem Fragetyp), bis 10 Fragen erreicht sind. Bei nur einem Fakt besteht die Einheit
+  aus einer Frage, weil derselbe Fakt nie zweimal direkt hintereinander kommen darf.
+- **Wiederholung falscher Antworten:** genau einmal am Ende. Würde sie direkt auf denselben Fakt
+  folgen, kommt vorher eine Frage zu einem anderen Fakt der Einheit.
+- **XP:** 10 pro richtiger Antwort (auch bei der Wiederholung), 20 Bonus, wenn alle Antworten
+  der Einheit richtig waren. Werte in `src/engine/config.ts`.
+- **Steckbriefe bleiben freigeschaltet**, auch wenn der Fakt „erkennen“ später wieder in Fach 1
+  fällt. Die Liste der freigeschalteten Steckbriefe wird gespeichert.
+- **Meisterung zählt alle Fakten eines Levels**, auch Wissensfakten, die noch gesperrt sind.
+- **Wissens-Level vor dem ersten Steckbrief:** Die Einheit ist leer; die Oberfläche erklärt, dass
+  erst Steckbriefe freigeschaltet werden müssen.
+- **Speicherformat:** ein JSON-Text mit `app`, `version`, `savedAt`, `progress`, `settings`.
+  Derselbe Text ist die Exportdatei. Migrationen sind als Funktionen „Version n → n + 1“
+  vorgesehen. Beschädigte Daten führen zu einem Neustart mit Hinweis statt zu einem Absturz.
+- **Storage-Adapter ist asynchron** (`load`, `save`, `clear`), damit ein späteres Server-Backend
+  dieselbe Schnittstelle erfüllen kann. Die App bittet den Browser zusätzlich um dauerhaften
+  Speicher (`navigator.storage.persist`).
+- **Zustand ohne `persist`-Middleware:** Der Store speichert nach jeder Änderung selbst über den
+  Adapter, erst nachdem der gespeicherte Stand geladen ist. So kann ein Zwischenzustand nie
+  gespeicherte Daten überschreiben.
