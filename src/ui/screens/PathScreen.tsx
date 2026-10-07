@@ -129,9 +129,10 @@ function LevelNode({
 
   const card = 'flex items-center gap-4 rounded-lg bg-surface p-3 shadow-card';
   return (
-    <li>
+    // relative: the card paints above the connecting line of the path
+    <li className="relative">
       {locked ? (
-        <div className={`${card} opacity-70`} aria-disabled="true">
+        <div className={`${card} [&>*]:opacity-70`} aria-disabled="true">
           {body}
         </div>
       ) : (
