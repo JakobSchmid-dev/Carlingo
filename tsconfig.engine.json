@@ -1,0 +1,10 @@
+{
+  "//": "Engine and content parsing must stay free of browser APIs: compiled without the DOM lib.",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "types": []
+  },
+  "include": ["src/engine", "src/content"],
+  "exclude": ["src/**/*.test.ts", "src/content/load.ts"]
+}
