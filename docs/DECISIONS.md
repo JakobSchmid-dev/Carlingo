@@ -116,3 +116,30 @@ Eigene Entscheidungen bei der Umsetzung von `SPEC.md`, jeweils mit Begründung.
 - **Zustand ohne `persist`-Middleware:** Der Store speichert nach jeder Änderung selbst über den
   Adapter, erst nachdem der gespeicherte Stand geladen ist. So kann ein Zwischenzustand nie
   gespeicherte Daten überschreiben.
+
+## Oberfläche
+
+- **Inhalte und Store per React-Kontext.** So laufen Komponententests mit erfundenen Testdaten und
+  einem Speicher im Arbeitsspeicher, ohne die echten Inhalte oder `localStorage`.
+- **Lerneinheit als Vollbild ohne Navigation**, alle anderen Bildschirme mit Navigationsleiste
+  unten (Lernen, Sammlung, Einstellungen) – mit einer Hand erreichbar.
+- **Antworten auch per Tastatur:** Ziffern 1–4 wählen, danach liegt der Fokus auf „Weiter“.
+- **Fortschrittsanzeige zählt Wiederholungen mit** („Frage 11 von 12 · Wiederholung“), damit
+  sichtbar ist, warum die Einheit länger wird.
+- **Gesperrte Fahrzeuge in der Sammlung** werden stark weichgezeichnet und entsättigt statt als
+  echte Silhouette dargestellt. Eine Silhouette per CSS-Filter funktioniert nur bei freigestellten
+  Bildern; echte Fotos haben einen Hintergrund. Der Name bleibt verborgen.
+- **Steckbriefe gesperrter Fahrzeuge** sind nicht verlinkt; direkt aufgerufen zeigen sie einen
+  Hinweis statt der Daten.
+- **Begriffe im Steckbrief:** Glossar-Einträge aus `brand.json` erscheinen automatisch, wenn der
+  Begriff in Motorbezeichnungen, Merkmalen oder im Namen vorkommt (z. B. „4MATIC“).
+- **Hinweis „Ungeprüft“** (nur im Entwicklungsmodus): Banner auf dem Lernpfad mit der Anzahl
+  ungeprüfter Fahrzeuge, Abzeichen in Rückmeldung, Sammlung und Steckbrief.
+- **Bildnachweise** zeigen Dateinamen, die die Fahrzeug-ID enthalten. Das verrät gesperrte
+  Fahrzeuge, ist aber als vollständige Quellenangabe gewollt.
+- **Darstellung:** Wahl zwischen „Wie System“, „Hell“ und „Dunkel“; gespeichert mit dem Lernstand.
+- **Bilder werden nie inline eingebettet** (`assetsInlineLimit: 0`), damit Lazy Loading wirkt und
+  das JavaScript klein bleibt.
+- **Inhaltsfehler im Entwicklungsmodus:** Ist ein Paket ungültig, zeigt die App statt des
+  Lernpfads die Fehlerliste (gleiche Meldungen wie `npm run validate`). Im Build kann das nicht
+  vorkommen, weil der Build vorher validiert.

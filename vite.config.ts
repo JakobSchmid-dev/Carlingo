@@ -6,6 +6,10 @@ export default defineConfig({
   // Relative base + hash routing: the build works under any GitHub Pages path.
   base: './',
   plugins: [react(), tailwindcss()],
+  build: {
+    // Keep every image a separate file: lazy loading works and the JS bundle stays small.
+    assetsInlineLimit: 0,
+  },
   test: {
     environment: 'node',
     setupFiles: ['./tests/setup.ts'],
