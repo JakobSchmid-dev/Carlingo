@@ -61,6 +61,7 @@
 
 /* Non-utility tokens */
 :root {
+  color-scheme: light; /* native form controls and scrollbars follow the theme */
   --duration-fast: 150ms;
   --duration-normal: 250ms;
   --image-ratio: 4 / 3;
@@ -86,6 +87,7 @@
   --color-locked: #737985;
   --color-overlay: rgb(0 0 0 / 0.6);
   --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
+  color-scheme: dark;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -109,6 +111,7 @@
     --color-locked: #737985;
     --color-overlay: rgb(0 0 0 / 0.6);
     --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
+    color-scheme: dark;
   }
 }
 
