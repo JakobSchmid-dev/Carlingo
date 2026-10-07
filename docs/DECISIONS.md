@@ -153,3 +153,10 @@ Eigene Entscheidungen bei der Umsetzung von `SPEC.md`, jeweils mit Begründung.
   ersten Besuch ab. Neue Versionen werden beim nächsten Start still übernommen.
 - **CI deployt nur `main`**, wie in der Spezifikation. Andere Branches werden geprüft und gebaut,
   aber nicht veröffentlicht.
+
+## Sonstiges
+
+- **Reihenfolge der Sparten:** alphabetisch nach Markenname. Die gewählte Sparte wird gespeichert;
+  ohne Auswahl ist die erste Sparte aktiv.
+- **Abnahme-Testfälle als echte Inhalte:** Die G-Klasse (nur Pflichtangaben) und das Level
+  „SUVs unterscheiden“ aus der Abnahme bleiben im Paket; damit sind es 8 Beispielfahrzeuge.
