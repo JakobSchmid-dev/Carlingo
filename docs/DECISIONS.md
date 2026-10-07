@@ -160,3 +160,20 @@ Eigene Entscheidungen bei der Umsetzung von `SPEC.md`, jeweils mit Begründung.
   ohne Auswahl ist die erste Sparte aktiv.
 - **Abnahme-Testfälle als echte Inhalte:** Die G-Klasse (nur Pflichtangaben) und das Level
   „SUVs unterscheiden“ aus der Abnahme bleiben im Paket; damit sind es 8 Beispielfahrzeuge.
+
+## Echte Bilder und Daten (Nachtrag)
+
+- **Fahrzeugdaten von mb-wallpaper.de** (auf Wunsch der Nutzerin), abgeglichen mit den bisherigen
+  Quellen. Bei Widersprüchen gilt der aktuellere bzw. mehrfach belegte Wert; Abweichungen stehen in
+  `CONTENT_TODO.md`. **Bilder von mb-wallpaper.de werden nicht verwendet**, weil dafür keine Lizenz
+  zur Weiterverbreitung vorliegt.
+- **Bilder von Wikimedia Commons**, nur mit Lizenz CC0, Public Domain, CC BY oder CC BY-SA. Bilder
+  mit „NC“ oder „ND“ sind ausgeschlossen, weil Zuschnitt und Detailausschnitt Bearbeitungen sind.
+  Urheber und Lizenz werden aus den Commons-Metadaten übernommen, nicht abgetippt.
+- **Bildauswahl von Hand** aus Übersichtsbögen: bevorzugt Straßenfotos aus normaler Perspektive
+  (so sieht man die Autos im Alltag), möglichst Front und Heck desselben Fahrzeugs. Sondermodelle
+  und Varianten mit anderem Aussehen (z. B. C-Klasse All-Terrain, AMG-Versionen bei
+  Nicht-AMG-Einträgen, G 580 mit EQ Technologie) wurden ausgelassen.
+- **Bildformat:** 1200 × 900 JPG (Detailbilder 800 × 600), Ansicht „Front schräg“ und „Heck
+  schräg“. Die Detailbilder sind Ausschnitte aus diesen Fotos (Rückleuchte bzw. Kühlergrill).
+- **Abruf mit eigenem User-Agent und Pausen**, wie es die Wikimedia-Richtlinien verlangen.

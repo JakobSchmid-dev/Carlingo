@@ -36,6 +36,18 @@
     ],
     "engines": [
       {
+        "name": "C 200",
+        "fuel": "petrol",
+        "powerKw": 150,
+        "powerPs": 204
+      },
+      {
+        "name": "C 300",
+        "fuel": "petrol",
+        "powerKw": 190,
+        "powerPs": 258
+      },
+      {
         "name": "C 200 d",
         "fuel": "diesel",
         "powerKw": 120,
@@ -86,7 +98,8 @@
       "https://www.angurten.de/is/technische-daten/Mercedes-C-Klasse+Limousine-C+200+d+Limousine+%28163+%2B+20-23+PS%29-120-kW-163-PS-2035-18082.html",
       "https://www.angurten.de/is/technische-daten/Mercedes-C-Klasse+Limousine-C+220+d+Limousine+%28200+%2B+20-23+PS%29-147-kW-200-PS-2035-18083.html",
       "https://www.angurten.de/is/technische-daten/Mercedes-C-Klasse+Limousine-C+300+d+Limousine+%28265+%2B+20-23+PS%29-195-kW-265-PS-2035-18085.html",
-      "https://www.autobild.de/artikel/mercedes-c-klasse-w-206-2021-design-highlights-20297855.html"
+      "https://www.autobild.de/artikel/mercedes-c-klasse-w-206-2021-design-highlights-20297855.html",
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1627826412.html"
     ],
     "verified": false
   },
@@ -119,10 +132,22 @@
     ],
     "engines": [
       {
+        "name": "C 200 T-Modell",
+        "fuel": "petrol",
+        "powerKw": 150,
+        "powerPs": 204
+      },
+      {
         "name": "C 220 d T-Modell",
         "fuel": "diesel",
         "powerKw": 147,
         "powerPs": 200
+      },
+      {
+        "name": "C 300 d T-Modell",
+        "fuel": "diesel",
+        "powerKw": 195,
+        "powerPs": 265
       }
     ],
     "images": [
@@ -153,7 +178,8 @@
     ],
     "dataSources": [
       "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W206)",
-      "https://autotijd.be/de/technische-daten/mercedes/c-klasse-break/c-220-d-200-hp"
+      "https://autotijd.be/de/technische-daten/mercedes/c-klasse-break/c-220-d-200-hp",
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1627826412.html"
     ],
     "verified": false
   },
@@ -189,6 +215,12 @@
       }
     ],
     "engines": [
+      {
+        "name": "E 200",
+        "fuel": "petrol",
+        "powerKw": 150,
+        "powerPs": 204
+      },
       {
         "name": "E 220 d 4MATIC",
         "fuel": "diesel",
@@ -231,7 +263,8 @@
     "dataSources": [
       "https://www.angurten.de/is/technische-daten/Mercedes-E-Klasse+Limousine-E+220+d+4MATIC+%28197+%2B+23+PS%29-145-kW-197-PS-2114-19086.html",
       "https://www.angurten.de/is/technische-daten/Mercedes-E-Klasse+Limousine-E+450+d+4MATIC+%28367+%2B+23+PS%29-270-kW-367-PS-2114-19344.html",
-      "https://mbpassion.de/2023/05/das-exterieurdesign-der-neuen-e-klasse-von-mercedes-benz/"
+      "https://mbpassion.de/2023/05/das-exterieurdesign-der-neuen-e-klasse-von-mercedes-benz/",
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1682500292.html"
     ],
     "verified": false
   },
@@ -281,8 +314,15 @@
         "fuel": "petrol",
         "powerKw": 190,
         "powerPs": 258
+      },
+      {
+        "name": "GLC 300 d 4MATIC",
+        "fuel": "diesel",
+        "powerKw": 198,
+        "powerPs": 269
       }
     ],
+    "funFact": "Der GLC dieser Generation wird in Sindelfingen, Bremen und Peking gebaut.",
     "images": [
       {
         "file": "glc-suv-x254-front-three-quarter.svg",
@@ -313,7 +353,8 @@
       "https://www.angurten.de/is/technische-daten/Mercedes-GLC-GLC+200+4MATIC+%28204+%2B+23+PS%29-150-kW-204-PS-2084-18627.html",
       "https://www.angurten.de/is/technische-daten/Mercedes-GLC-GLC+220+d+4MATIC+%28197+%2B+23+PS%29-145-kW-197-PS-2084-18628.html",
       "https://www.angurten.de/is/technische-daten/Mercedes-GLC-GLC+300+4MATIC+%28258+%2B+23+PS%29-190-kW-258-PS-2084-18629.html",
-      "https://www.wapcar.my/news/47862/amp"
+      "https://www.wapcar.my/news/47862/amp",
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1656750521.html"
     ],
     "verified": false
   },
@@ -326,6 +367,11 @@
     "powertrain": "electric",
     "subBrand": "mercedes-benz",
     "modelCode": "X540",
+    "production": {
+      "from": 2026,
+      "to": null,
+      "faceliftYears": []
+    },
     "status": "current",
     "collections": [
       "current"
@@ -378,7 +424,8 @@
       "https://www.mercedes-benz.ie/models/glc-electric-x540/",
       "https://www.auto-motor-und-sport.de/test/mercedes-glc-400-4matic-fahrtest-489-ps-800-v-offroad-ki-cockpit/",
       "https://insideevs.com/news/767871/mercedes-glc-illuminated-grille/",
-      "https://goauto.com.au/future-models/mercedes-benz/glc/eq/2025-09-08/97349.html"
+      "https://goauto.com.au/future-models/mercedes-benz/glc/eq/2025-09-08/97349.html",
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1757322501.html"
     ],
     "verified": false
   },
@@ -425,6 +472,7 @@
         "powerPs": 367
       }
     ],
+    "funFact": "Der GLE wird im Mercedes-Benz-Werk in Tuscaloosa in den USA gebaut.",
     "images": [
       {
         "file": "gle-suv-v167-front-three-quarter.svg",
@@ -455,7 +503,8 @@
       "https://www.angurten.de/is/technische-daten/Mercedes-GLE-GLE+350d+4MATIC+%28286+%2B+23+PS%29-210-kW-286-PS-1851-20132.html",
       "https://www.angurten.de/is/technische-daten/Mercedes-GLE-GLE+450+4MATIC+%28381+%2B+23+PS%29-280-kW-381-PS-1851-20134.html",
       "https://www.angurten.de/is/technische-daten/Mercedes-GLE-GLE+450d+4MATIC+%28367+%2B+23+PS%29-270-kW-367-PS-1851-20133.html",
-      "https://auto-motor-und-sport.de/marken-modelle/mercedes/gle/v167-c167/news"
+      "https://auto-motor-und-sport.de/marken-modelle/mercedes/gle/v167-c167/news",
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1541081411.html"
     ],
     "verified": false
   },
@@ -468,6 +517,11 @@
     "powertrain": "combustion",
     "subBrand": "mercedes-amg",
     "modelCode": "R232",
+    "production": {
+      "from": 2021,
+      "to": null,
+      "faceliftYears": []
+    },
     "status": "current",
     "collections": [
       "current"
@@ -490,8 +544,8 @@
       {
         "name": "Mercedes-AMG SL 43",
         "fuel": "petrol",
-        "powerKw": 280,
-        "powerPs": 381
+        "powerKw": 310,
+        "powerPs": 421
       },
       {
         "name": "Mercedes-AMG SL 55 4MATIC+",
@@ -536,7 +590,8 @@
     "dataSources": [
       "https://mbpassion.de/2021/10/alle-bilder-details-zur-neuauflage-der-ikone-der-mercedes-amg-sl/",
       "https://completecar.ie/car-news/article/11265/Mercedes-reveals-new-AMG-badged-SL",
-      "https://www.autoscout24.at/auto/technische-daten/mercedes-benz/sl/"
+      "https://www.autoscout24.at/auto/technische-daten/mercedes-benz/sl/",
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1650460796.html"
     ],
     "verified": false
   },
@@ -548,6 +603,12 @@
     "bodyStyle": "suv",
     "powertrain": "combustion",
     "subBrand": "mercedes-benz",
+    "modelCode": "W465",
+    "production": {
+      "from": 2024,
+      "to": null,
+      "faceliftYears": []
+    },
     "status": "current",
     "collections": [
       "current"
@@ -555,6 +616,21 @@
     "similarTo": [
       "gle-suv-v167"
     ],
+    "engines": [
+      {
+        "name": "G 450 d",
+        "fuel": "diesel",
+        "powerKw": 270,
+        "powerPs": 367
+      },
+      {
+        "name": "G 500",
+        "fuel": "petrol",
+        "powerKw": 330,
+        "powerPs": 449
+      }
+    ],
+    "funFact": "Seit 2024 gibt es die G-Klasse auch elektrisch: Der G 580 mit EQ Technologie hat vier Elektromotoren.",
     "images": [
       {
         "file": "g-class-suv-front-three-quarter.svg",
@@ -580,6 +656,10 @@
         "author": "Carlingo",
         "license": "CC0 1.0 (Platzhalter ohne Rechte Dritter)"
       }
+    ],
+    "dataSources": [
+      "https://www.mb-wallpaper.de/v/fahrzeuge-modelle-all/1714499647.html",
+      "https://mbpassion.de/2024/03/das-kommt-neu-in-der-g-klasse/"
     ],
     "verified": false
   }
